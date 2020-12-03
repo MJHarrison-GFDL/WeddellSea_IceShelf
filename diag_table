@@ -1,0 +1,48 @@
+FR
+1 1 1 0 0 0
+"ocean_daily",            1, "days",   1, "days", "time"
+#"ocean_eta",            0, "hours",   1, "days", "time"
+"ocean_static",     -1,  "months", 1, "days", "time"
+"ice_daily",              1, "days",   1, "days", "time"
+
+
+"ocean_model", "areacello",   "areacello",   "ocean_static", "all", "none", "none", 2
+ "ocean_model", "deptho",      "deptho",      "ocean_static", "all", "none", "none", 2
+ "ocean_model", "sftof",       "sftof",       "ocean_static", "all", "none", "none", 2
+ "ocean_model", "wet",       "wet",       "ocean_static", "all", "none", "none", 2
+ "ocean_model", "rhozero",       "rhozero",       "ocean_static", "all", "none", "none", 2
+ "ocean_model", "cpocean",       "cpocean",       "ocean_static", "all", "none", "none", 2
+# "ocean_model", "eta_hifreq",          "eta",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "PFuBT",          "PFuBT",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "PFvBT",          "PFvBT",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "u_accel_bt",          "u_accel_bt",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "v_accel_bt",          "v_accel_bt",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "ubt_st",          "ubt_st",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "vbt_st",          "vbt_st",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "ubt_hifreq",          "ubt",              "ocean_eta", "all", "none", "none",2
+# "ocean_model", "vbt_hifreq",          "vbt",              "ocean_eta", "all", "none", "none",2
+ "ocean_model", "SSH",          "ssh",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "SSU",          "ssu",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "SSV",          "ssv",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "SST",          "sst",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "SSS",          "sss",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "ubt",          "ubt",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "vbt",          "vbt",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "lprec",          "lprec",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "fprec",          "fprec",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "evap",          "evap",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "taux",          "taux",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "tauy",          "tauy",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "ustar",          "ustar",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "PRCmE",          "PRCmE",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "hfds",          "hfds",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "e",          "e",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "temp",          "temp",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "salt",          "salt",              "ocean_daily", "all", "none", "none",2
+ "ocean_model", "dye001",          "dye001",              "ocean_daily", "all", "none", "none",2
+# "ocean_model", "salt_flux",          "salt_flux",              "ocean_daily", "all", "none", "none",2
+
+
+
+ "ice_model", "MIB",       "MIB",         "ice_daily", "all", "none", "none", 2
+ "ice_model", "CN",       "CN",         "ice_daily", "all", "none", "none", 2
