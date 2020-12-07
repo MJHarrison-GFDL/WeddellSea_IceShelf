@@ -13,3 +13,11 @@ RUN:
 e.g.
 
 (mpirun -n 128 $MOM6_SIS2_EXECUTABLE 2> std.err > std.out)
+
+
+Cases
+=====
+
+zstar/rest01: initialized from rest with ice shelf w/o thermo cloupling
+zstar/rest01.no_shelf: initialized from rest w/o ice shelf
+zstar/rest01.restart: re-initialized grid from zstar/rest01
